@@ -22,120 +22,115 @@
     </header>
     <main>
         <section>
-            <p>
-                <h3>5 Tags that I learned</h3>
-            </p>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Tag</th>
-                        <th>Explain</th>
-                    </tr>
-                </thead>
+            <h3>&lt;h1&gt;</h3>
+                We can us this tag for the most important heading of the page.<br>For the next level of heading we have &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;, &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, and &lt;h6&gt;&lt;/h6&gt;. The browser will style each heading differently, stating with the biggest size for h1 then h2 and so on.
+        </section>
+        <section>
+            <h3>&lt;img&gt;</h3>
+                The &lt;img&gt; tag display an image on the webpage. This tag needs two peices of informationone which image to link to and two a short description of the image.
+                <ul>
+                    <li>
+                        src: source, is to provide the relative or absolute path to the image
+                    </li>
+                    <li>
+                        alt: alternate text, is to provide description of the image for search engines, screen readers and in case the image does not load.
+                    </li>
+                </ul>
+        </section>
+        <section>
+            <h3>&lt;a&gt;</h3>
+                The &lt;img&gt; tag display an image on the webpage. This tag needs two peices of informationone which image to link to and two a short description of the image.
+                <ul>
+                    <li>
+                        src: source, is to provide the relative or absolute path to the image
+                    </li>
+                    <li>
+                        alt: alternate text, is to provide description of the image for search engines, screen readers and in case the image does not load.
+                    </li>
+                </ul>
+        </section>
+        <section>
+            <h3>&lt;form&gt;</h3>
+                To start adding a form to our HTML page we start by adding the &lt;form&gt;&lt;/form&gt; tag. Form is a paired tag and any information we want to collect using this form will be added inside the opening &lt;form&gt; and closing &lt;/form&gt; form tags.
+            <div>
+                The two most important attributes we add to the form tag are <mark>action</mark> and <mark>method</mark>.
+                <ul>
+                    <li>
+                        <b><mark>action</mark></b> attribute is used to add the URL or file path where the form will be sending it's information.
+                    </li>
+                    <li>
+                        <b><mark>method</mark></b> attribute defines how the information is sent. There are two values used for this attribute.
+                        <div>
+                            <p>
+                                <em>get</em> is used when the information being sent is not sensitive and can benefit to be added to the URL when sending over to the action page. Example: Product search on Amazon or search form on Google
+                            </p>
+                            <p>
+                                <em>post</em> is used when the information needs to be hidden from the user when sent to the action page. Example login credentials.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h3>&lt;table&gt;</h3>
+            Tables are useful for displaying data, like a schedule, timetable or spreadsheet.<br>The tags used in tables include:<br>
+            <table>
                 <tbody>
-                    <tr width="700">
-                        <td width="100" align="middle">&lt;h1&gt;</td>
-                        <td width="600 align=left">
-                            <div>
-                                We can us this tag for the most important heading of the page.<br>For the next level of heading we have &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;, &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, and &lt;h6&gt;&lt;/h6&gt;. The browser will style each heading differently, stating with the biggest size for h1 then h2 and so on.
-                            </div>
+                    <tr>
+                        <td>
+                            &lt;table&gt;&lt;/table&gt;
+                        </td>
+                        <td>
+                             the table container
+                        </td>
+                    </tr>    
+                    <tr>                         
+                        <td>
+                            &lt;caption&gt;&lt;/caption&gt;
+                        </td>
+                        <td>
+                            the label/description for a table
                         </td>
                     </tr>
-                    <tr width="700">
-                        <td width="100" align="middle">&lt;img&gt;</td>
-                        <td width="600 align=left">
-                            <div>
-                                The &lt;img&gt; tag display an image on the webpage. This tag needs two peices of informationone which image to link to and two a short description of the image.
-                            </div>
-                            <div>
-                                <ul>
-                                    <li>
-                                        src: source, is to provide the relative or absolute path to the image
-                                    </li>
-                                    <li>
-                                        alt: alternate text, is to provide description of the image for search engines, screen readers and in case the image does not load.
-                                    </li>
-                                </ul>
-                            </div>
+                    <tr>                         
+                        <td>
+                            &lt;thead&gt;&lt;/thead&gt;
+                        </td>
+                        <td>
+                            the header area of the table
                         </td>
                     </tr>
-                    <tr width="700">
-                        <td width="100" align="middle">&lt;a&gt;</td>
-                        <td width="600" align="left">
-                            <div>
-                                Anchors can link to other websites, specific pages, photos, documents or any other resource available on the web or on our web server.
-                            </div>
-                            <div>
-                                <ul>
-                                    <li>
-                                        For creating a link on our webpage we use the anchor tag &lt;a&gt;&lt;/a&gt;.
-                                    </li>
-                                    <li>
-                                        The anchor tag is a paired tag and the content we want to display as a link is added between the opening &lt;a&gt; and the closing &lt;/a&gt;.
-                                    </li>
-                                    <li>
-                                        For providing the location where the anchor tag will link-to we use the <b><mark>href</mark></b> attribute.
-                                    </li>
-                                </ul>
-                            </div>
+                    <tr>
+                        <td>
+                            &lt;tbody&gt;&lt;/tbody&gt;
+                        </td>
+                        <td>
+                            the body of the table
                         </td>
                     </tr>
-                    <tr width="700">
-                        <td width="100" align="middle">&lt;form&gt;</td>
-                        <td width="600" align="left">
-                           <div>
-                                To start adding a form to our HTML page we start by adding the &lt;form&gt;&lt;/form&gt; tag. Form is a paired tag and any information we want to collect using this form will be added inside the opening &lt;form&gt; and closing &lt;/form&gt; form tags.
-                           </div>
-                            <div>
-                                The two most important attributes we add to the form tag are <mark>action</mark> and <mark>method</mark>.
-                                <ul>
-                                    <li>
-                                        <b><mark>action</mark></b> attribute is used to add the URL or file path where the form will be sending it's information.
-                                    </li>
-                                    <li>
-                                        <b><mark>method</mark></b> attribute defines how the information is sent. There are two values used for this attribute.
-                                        <div>
-                                            <p>
-                                                <em>get</em> is used when the information being sent is not sensitive and can benefit to be added to the URL when sending over to the action page. Example: Product search on Amazon or search form on Google
-                                            </p>
-                                            <p>
-                                                <em>post</em> is used when the information needs to be hidden from the user when sent to the action page. Example login credentials.
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                    <tr>
+                        <td>
+                           &lt;tr&gt;&lt;/tr&gt;
+                        </td>
+                        <td>
+                            table row
                         </td>
                     </tr>
-                    <tr width="700">
-                        <td width="100" align="middle">&lt;table&gt;</td>
-                        <td width="600 align=left">
-                            <div>
-                                Tables are useful for displaying data, like a schedule, timetable or spreadsheet.<br>The tags used in tables include:<br>
-                                <ul>
-                                    <li>
-                                        &lt;table&gt;&lt;/table&gt; - the table container
-                                    </li>
-                                    <li>
-                                        &lt;caption&gt;&lt;/caption&gt; - the label/description for a table
-                                    </li>
-                                    <li>
-                                        &lt;thead&gt;&lt;/thead&gt; - the header area of the table
-                                    </li>
-                                    <li>
-                                        &lt;tbody&gt;&lt;/tbody&gt; - the body of the table
-                                    </li>
-                                    <li>
-                                        &lt;tr&gt;&lt;/tr&gt; - table row
-                                    </li>
-                                    <li>
-                                        &lt;th&gt;&lt;/th&gt; - table heading cell
-                                    </li>
-                                    <li>
-                                        &lt;td&gt;&lt;/td&gt; - table data cell (most common tag)
-                                    </li>
-                                </ul>
-                            </div>
+                    <tr>
+                        <td>
+                            &lt;th&gt;&lt;/th&gt;
+                        </td>
+                        <td>
+                            table heading cell
+                        </td>
+                    </tr>
+                    <tr>            
+                        <td>
+                           &lt;td&gt;&lt;/td&gt;
+                        </td>
+                        <td>
+                            table data cell (most common tag)
                         </td>
                     </tr>
                 </tbody>
