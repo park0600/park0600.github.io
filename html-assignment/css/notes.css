@@ -18,3 +18,18 @@ header, footer {
 h1 {
     color: #fff;
 }
+
+h2{
+    color: #ff8811
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0%;
+    display: flex;
+    justify-content:space-around
+}
+
+header, main, section, footer {
+    padding: 20px;
+}
