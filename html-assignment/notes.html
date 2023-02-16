@@ -8,136 +8,138 @@
     <link href="css/notes.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>HTML Tags</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="notes.html">HTML Tags</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>&lt;h1&gt;</h2>
-                We can us this tag for the most important heading of the page.<br>For the next level of heading we have &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;, &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, and &lt;h6&gt;&lt;/h6&gt;. The browser will style each heading differently, stating with the biggest size for h1 then h2 and so on.
-        </section>
-        <section>
-            <h2>&lt;img&gt;</h2>
-                The &lt;img&gt; tag display an image on the webpage. This tag needs two peices of informationone which image to link to and two a short description of the image.
+    <div class="wrapper">
+        <header>
+            <h1>HTML Tags</h1>
+            <nav>
                 <ul>
                     <li>
-                        src: source, is to provide the relative or absolute path to the image
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        alt: alternate text, is to provide description of the image for search engines, screen readers and in case the image does not load.
+                        <a href="notes.html">HTML Tags</a>
                     </li>
                 </ul>
-        </section>
-        <section>
-            <h2>&lt;a&gt;</h2>
-                The &lt;img&gt; tag display an image on the webpage. This tag needs two peices of informationone which image to link to and two a short description of the image.
-                <ul>
-                    <li>
-                        src: source, is to provide the relative or absolute path to the image
-                    </li>
-                    <li>
-                        alt: alternate text, is to provide description of the image for search engines, screen readers and in case the image does not load.
-                    </li>
-                </ul>
-        </section>
-        <section>
-            <h2>&lt;form&gt;</h2>
-                To start adding a form to our HTML page we start by adding the &lt;form&gt;&lt;/form&gt; tag. Form is a paired tag and any information we want to collect using this form will be added inside the opening &lt;form&gt; and closing &lt;/form&gt; form tags.
-            <div>
-                The two most important attributes we add to the form tag are <b><em>action</em></b> and <b><em>method</em></b>.
-                <ul>
-                    <li>
-                        <b>action</b> attribute is used to add the URL or file path where the form will be sending it's information.
-                    </li>
-                    <li>
-                        <b>method</b> attribute defines how the information is sent. There are two values used for this attribute.
-                        <div>
-                            <p>
-                                <em>get</em> is used when the information being sent is not sensitive and can benefit to be added to the URL when sending over to the action page. Example: Product search on Amazon or search form on Google
-                            </p>
-                            <p>
-                                <em>post</em> is used when the information needs to be hidden from the user when sent to the action page. Example login credentials.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <h2>&lt;table&gt;</h2>
-            Tables are useful for displaying data, like a schedule, timetable or spreadsheet.<br>The tags used in tables include:<br>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            &lt;table&gt;&lt;/table&gt;
-                        </td>
-                        <td>
-                             the table container
-                        </td>
-                    </tr>    
-                    <tr>                         
-                        <td>
-                            &lt;caption&gt;&lt;/caption&gt;
-                        </td>
-                        <td>
-                            the label/description for a table
-                        </td>
-                    </tr>
-                    <tr>                         
-                        <td>
-                            &lt;thead&gt;&lt;/thead&gt;
-                        </td>
-                        <td>
-                            the header area of the table
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            &lt;tbody&gt;&lt;/tbody&gt;
-                        </td>
-                        <td>
-                            the body of the table
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                           &lt;tr&gt;&lt;/tr&gt;
-                        </td>
-                        <td>
-                            table row
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            &lt;th&gt;&lt;/th&gt;
-                        </td>
-                        <td>
-                            table heading cell
-                        </td>
-                    </tr>
-                    <tr>            
-                        <td>
-                           &lt;td&gt;&lt;/td&gt;
-                        </td>
-                        <td>
-                            table data cell (most common tag)
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
-    <footer>&copy;Copyright JoyfulLife 2023</footer>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>&lt;h1&gt;</h2>
+                    We can us this tag for the most important heading of the page.<br>For the next level of heading we have &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;, &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, and &lt;h6&gt;&lt;/h6&gt;. The browser will style each heading differently, stating with the biggest size for h1 then h2 and so on.
+            </section>
+            <section>
+                <h2>&lt;img&gt;</h2>
+                    The &lt;img&gt; tag display an image on the webpage. This tag needs two peices of informationone which image to link to and two a short description of the image.
+                    <ul>
+                        <li>
+                            src: source, is to provide the relative or absolute path to the image
+                        </li>
+                        <li>
+                            alt: alternate text, is to provide description of the image for search engines, screen readers and in case the image does not load.
+                        </li>
+                    </ul>
+            </section>
+            <section>
+                <h2>&lt;a&gt;</h2>
+                    The &lt;img&gt; tag display an image on the webpage. This tag needs two peices of informationone which image to link to and two a short description of the image.
+                    <ul>
+                        <li>
+                            src: source, is to provide the relative or absolute path to the image
+                        </li>
+                        <li>
+                            alt: alternate text, is to provide description of the image for search engines, screen readers and in case the image does not load.
+                        </li>
+                    </ul>
+            </section>
+            <section>
+                <h2>&lt;form&gt;</h2>
+                    To start adding a form to our HTML page we start by adding the &lt;form&gt;&lt;/form&gt; tag. Form is a paired tag and any information we want to collect using this form will be added inside the opening &lt;form&gt; and closing &lt;/form&gt; form tags.
+                <div>
+                    The two most important attributes we add to the form tag are <b><em>action</em></b> and <b><em>method</em></b>.
+                    <ul>
+                        <li>
+                            <b>action</b> attribute is used to add the URL or file path where the form will be sending it's information.
+                        </li>
+                        <li>
+                            <b>method</b> attribute defines how the information is sent. There are two values used for this attribute.
+                            <div>
+                                <p>
+                                    <em>get</em> is used when the information being sent is not sensitive and can benefit to be added to the URL when sending over to the action page. Example: Product search on Amazon or search form on Google
+                                </p>
+                                <p>
+                                    <em>post</em> is used when the information needs to be hidden from the user when sent to the action page. Example login credentials.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>&lt;table&gt;</h2>
+                Tables are useful for displaying data, like a schedule, timetable or spreadsheet.<br>The tags used in tables include:<br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                &lt;table&gt;&lt;/table&gt;
+                            </td>
+                            <td>
+                                the table container
+                            </td>
+                        </tr>    
+                        <tr>                         
+                            <td>
+                                &lt;caption&gt;&lt;/caption&gt;
+                            </td>
+                            <td>
+                                the label/description for a table
+                            </td>
+                        </tr>
+                        <tr>                         
+                            <td>
+                                &lt;thead&gt;&lt;/thead&gt;
+                            </td>
+                            <td>
+                                the header area of the table
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;tbody&gt;&lt;/tbody&gt;
+                            </td>
+                            <td>
+                                the body of the table
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            &lt;tr&gt;&lt;/tr&gt;
+                            </td>
+                            <td>
+                                table row
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;th&gt;&lt;/th&gt;
+                            </td>
+                            <td>
+                                table heading cell
+                            </td>
+                        </tr>
+                        <tr>            
+                            <td>
+                            &lt;td&gt;&lt;/td&gt;
+                            </td>
+                            <td>
+                                table data cell (most common tag)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>&copy;Copyright JoyfulLife 2023</footer>
+    </div>
 </body>
 </html>
