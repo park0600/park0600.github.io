@@ -39,17 +39,17 @@ nav {
 }
 
 nav a:link, a:visited {
-    background-color: #D6D9CE;
+    background-color: #F6E6B6;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    color: #003D52;
+    color: #D08700;
 }
 
 nav a:hover, a:active {
-    background-color: #94BDC7;
-    color: #003D52;
+    background-color: #F1D786;
+    color: #D08700;
 }
 
 #table {
@@ -58,6 +58,6 @@ nav a:hover, a:active {
 }
 
 #table tbody, #table td, #table tr {
-    border: 1px solid #B13947;
+    border: 1px solid #003D52;
     padding: 5px;
 }
