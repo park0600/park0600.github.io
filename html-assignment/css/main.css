@@ -20,14 +20,14 @@ h1 {
 }
 
 h2{
-    color: #ff8811
+    color: #3c6e71;
 }
 
 header ul {
     list-style: none;
     padding-left: 0%;
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
 }
 
 header, main, section, footer {
@@ -50,6 +50,10 @@ nav a:link, a:visited {
 nav a:hover, a:active {
     background-color: #d9d9d9;
     color: #353535;
+}
+
+blockquote {
+    color: #ff8811;
 }
 
 .gallery {
