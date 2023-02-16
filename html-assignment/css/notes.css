@@ -20,7 +20,7 @@ h1 {
 }
 
 h2{
-    color: #3c6e71;
+    color: #B13947;
 }
 
 header ul {
@@ -58,6 +58,6 @@ nav a:hover, a:active {
 }
 
 #table tbody, #table td, #table tr {
-    border: 1px solid #003D52;
+    border: 1px solid #B13947;
     padding: 5px;
 }
