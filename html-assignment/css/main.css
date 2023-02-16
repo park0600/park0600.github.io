@@ -24,3 +24,11 @@ header ul {
     display: flex;
     justify-content:space-around
 }
+
+header, main, section, footer {
+    padding: 20px;
+}
+
+section div {
+    display: flex;
+}
