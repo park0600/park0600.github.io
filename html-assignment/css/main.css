@@ -30,6 +30,17 @@ header, main, section, footer {
 }
 
 nav {
-    color: #d9d9d9;
     font-size: 18px;
+}
+
+a:link {
+    color:#d9d9d9;
+}
+
+a:visited {
+    color: #ff8811;
+}
+
+a:hover {
+    color:goldenrod;
 }
