@@ -61,6 +61,10 @@ nav a:hover, a:active {
     list-style-type: square
 }
 
+.hobby li:nth-child(odd) {
+    background: #F6E6B6;
+}
+
 blockquote {
     color: #D93330;
 }
