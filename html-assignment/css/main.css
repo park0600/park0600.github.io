@@ -57,6 +57,10 @@ nav a:hover, a:active {
     box-shadow: black 0px 2px 1px;
 }
 
+.hobby {
+    list-style-type: square
+}
+
 blockquote {
     color: #D93330;
 }
