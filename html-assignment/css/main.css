@@ -25,10 +25,7 @@ h2{
 }
 
 header ul {
-    list-style: none;
-    padding-left: 0%;
-    display: flex;
-    justify-content:space-around;
+    list-style-type: none;
 }
 
 header, main, section, footer {
