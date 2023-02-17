@@ -35,24 +35,6 @@ header, main, section, footer {
     padding: 20px;
 }
 
-nav {
-    font-size: 18px;
-}
-
-nav a:link, a:visited {
-    background-color: #F6E6B6;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    color: #D08700;
-}
-
-nav a:hover, a:active {
-    background-color: #F1D786;
-    color: #D08700;
-}
-
 #my-image {
     box-shadow: black 0px 2px 1px;
 }
@@ -63,6 +45,12 @@ nav a:hover, a:active {
 
 .hobby li:nth-child(odd) {
     background: #F6E6B6;
+}
+
+ul.hobby {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 blockquote {
