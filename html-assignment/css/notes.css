@@ -25,32 +25,22 @@ h2{
 }
 
 header ul {
-    list-style: none;
-    padding-left: 0%;
-    display: flex;
-    justify-content:space-around;
+    list-style-type: none;
 }
 
 header, main, section, footer {
     padding: 20px;
 }
 
-nav {
-    font-size: 18px;
-}
-
-nav a:link, a:visited {
-    background-color: #F6E6B6;
-    padding: 14px 25px;
-    text-align: center;
+nav ul a:link, a:visited {
     text-decoration: none;
-    display: inline-block;
+    background-color: #F6E6B6;
     color: #D08700;
+    border: 2px solid #B13947;
 }
 
-nav a:hover, a:active {
+nav ul a:hover {
     background-color: #F1D786;
-    color: #D08700;
 }
 
 #table {
