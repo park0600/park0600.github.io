@@ -53,3 +53,14 @@ ul.hobby {
 blockquote {
     color: #D93330;
 }
+
+nav ul a:link, a:visited {
+    text-decoration: none;
+    background-color: #F6E6B6;
+    color: #D08700;
+    border: 2px solid #B13947;
+}
+
+nav ul a:hover {
+    background-color: #F1D786;
+}
