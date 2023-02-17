@@ -52,3 +52,7 @@ nav ul a:hover {
     border: 1px solid #003D52;
     padding: 5px;
 }
+
+nav ul a:active {
+    background-color: #D08700;
+}
