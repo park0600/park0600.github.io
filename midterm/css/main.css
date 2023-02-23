@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial;
     font-size: 16px;
     background-color: #aad4cf;
 }
@@ -10,3 +10,24 @@ body {
     background-color: #d4e9e7;
 }
 
+main {
+    padding: 10px
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts ul {
+    padding-left: 20px;
+}
