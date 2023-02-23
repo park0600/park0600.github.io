@@ -10,8 +10,8 @@ body {
     background-color: #d4e9e7;
 }
 
-main {
-    padding: 10px
+main, footer     {
+    padding: 10px;
 }
 
 header {
@@ -30,4 +30,9 @@ header ul {
 
 .facts ul {
     padding-left: 20px;
+}
+
+footer {
+    text-align: right;
+    padding-right: 30px;
 }
