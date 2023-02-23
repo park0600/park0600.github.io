@@ -22,15 +22,15 @@
             </nav>
         </header>
         <main>    <!--main-->
-            <div class="story">
+            <section class="story">
             <h2>Life of a Starfish</h2>
             <img src="images/lone-starfish.jpg" alt="picture of a lone starfish" width="200">    <!--image-->
             <!--article-->
                 <p>
                 Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
                 </p>
-            </div>
-            <div class="facts">    <!--facts-->
+            </section>
+            <section class="facts">    <!--facts-->
                 <h2>Facts About Starfish</h2>
                 <ul>
                     <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
@@ -38,13 +38,38 @@
                     <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                     <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                 </ul>
-            </div>
-            <div class="contact">   <!--form-->
+            </section>
+            <section class="contact">   <!--form-->
                 <h2>Contact to learn more</h2>
-                <p>
-
-                </p>
-            </div>
+                <form action="index.html" method="get">
+                    <div>
+                        <label for="fname">Your Name</label><Br>
+                        <input id="fname" name="fullname" type="text">
+                    </div>
+                    <div>
+                        <label for="email">Your Email</label><Br>
+                        <input id="email" name="email" type="text">
+                    </div>
+                    <div>
+                        <label for="message">Your Message</label><Br>
+                        <input id="message" name="message" type="text">
+                    </div>
+                    <p>
+                        Would you like to visit the starfish?
+                    </p>
+                    <div>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="reply" value="yes">
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="reply" value="no">
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="reply" value="maybe">
+                    </div>
+                    <div>
+                        <button type="send">SEND</button>
+                    </div>
+                </form>
+            </section>
         </main>
     <footer>    <!--footer-->
         <p>&copy;Lone Starfish</p>
