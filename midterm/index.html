@@ -15,9 +15,9 @@
             </section>
             <nav>
                 <table>
-                    <th>HOME</th>
-                    <th>STORY</th>
-                    <th>CONTACT</th>
+                    <td>HOME</td>
+                    <td>STORY</td>
+                    <td>CONTACT</td>
                 </table>
             </nav>
         </header>
@@ -41,34 +41,36 @@
             </section>
             <section class="contact">   <!--form-->
                 <h2>Contact to learn more</h2>
-                <form action="index.html" method="get">
-                    <div>
-                        <label for="fname">Your Name</label><Br>
-                        <input id="fname" name="fullname" type="text">
-                    </div>
-                    <div>
-                        <label for="email">Your Email</label><Br>
-                        <input id="email" name="email" type="text">
-                    </div>
-                    <div>
-                        <label for="message">Your Message</label><Br>
-                        <input id="message" name="message" type="text">
-                    </div>
-                    <p>
-                        Would you like to visit the starfish?
-                    </p>
-                    <div>
-                        <label for="yes">Yes</label>
-                        <input type="radio" id="yes" name="reply" value="yes">
-                        <label for="no">No</label>
-                        <input type="radio" id="no" name="reply" value="no">
-                        <label for="maybe">Maybe</label>
-                        <input type="radio" id="maybe" name="reply" value="maybe">
-                    </div>
-                    <div>
-                        <button type="send">SEND</button>
-                    </div>
-                </form>
+                <div id="form">
+                    <form action="index.html" method="get">
+                        <div>
+                            <label for="fname">Your Name</label><Br>
+                            <input id="fname" name="fullname" type="text">
+                        </div>
+                        <div>
+                            <label for="email">Your Email</label><Br>
+                            <input id="email" name="email" type="text">
+                        </div>
+                        <div>
+                            <label for="message">Your Message</label><Br>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        <div>
+                            <p>
+                                Would you like to visit the starfish?
+                            </p>
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="yes" name="reply" value="yes">
+                            <label for="no">No</label>
+                            <input type="radio" id="no" name="reply" value="no">
+                            <label for="maybe">Maybe</label>
+                            <input type="radio" id="maybe" name="reply" value="maybe">
+                        </div>
+                        <div>
+                            <button id="send">SEND</button>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
     <footer>    <!--footer-->

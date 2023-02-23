@@ -44,7 +44,7 @@ nav table {
     border-collapse: collapse;
 }
 
-nav table th:nth-child(even) {
+nav table td:nth-child(even) {
 border-left: 1px solid black;
 border-right: 1px solid black;
 }
@@ -56,4 +56,24 @@ border-right: 1px solid black;
 footer {
     text-align: right;
     padding-right: 30px;
+}
+
+section #form {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+div #message {
+    width: 99%;
+    height: 100px
+}
+
+form div{
+padding: 10px;
+}
+
+div #send {
+    background-color: #d4e9e7;
+    padding: 1em;
+    font-size: 12px;
 }
