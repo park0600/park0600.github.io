@@ -38,6 +38,17 @@ header ul {
     justify-content: space-around;
 }
 
+nav table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+nav table th:nth-child(even) {
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
 .facts ul {
     padding-left: 20px;
 }
