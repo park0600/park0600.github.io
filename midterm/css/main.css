@@ -1,6 +1,6 @@
 body {
     font-family: arial;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #aad4cf;
 }
 
@@ -13,6 +13,9 @@ body {
 main, footer     {
     padding: 10px;
 }
+
+
+/* header */
 
 header {
     text-align: center;
@@ -38,10 +41,17 @@ header ul {
     justify-content: space-around;
 }
 
+
+/* nav */
 nav table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
+    font-size: 1rem;
+}
+
+table tr td {
+    padding: 10px;
 }
 
 nav table td:nth-child(even) {
@@ -49,31 +59,55 @@ border-left: 1px solid black;
 border-right: 1px solid black;
 }
 
+/*  article  */
+
+
+
+.story, .facts {
+    padding: 5px;
+}
+
+.starfish-img {
+    width: 30%;
+    float: left; padding: 0 10px 0 0;
+}
+
 .facts ul {
     padding-left: 20px;
 }
 
-footer {
-    text-align: right;
-    padding-right: 30px;
-}
+
+/*  form  */
 
 section #form {
     border: 1px solid black;
     padding: 10px;
 }
 
-div #message {
-    width: 99%;
-    height: 100px
-}
-
 form div{
 padding: 10px;
+}
+
+#fname, #email {
+    width: 99%;
+}
+
+div #message {
+    width: 99%;
+    height: 100px;
+    resize:none;
 }
 
 div #send {
     background-color: #d4e9e7;
     padding: 1em;
     font-size: 12px;
+}
+
+
+/*  footer  */
+
+footer {
+    text-align: right;
+    padding-right: 30px;
 }
