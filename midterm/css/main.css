@@ -4,7 +4,7 @@ body {
     background-color: #aad4cf;
 }
 
-.wrapper {
+#wrapper {
     width: 800px;
     margin: auto;
     background-color: #d4e9e7;
@@ -63,7 +63,7 @@ border-right: 1px solid black;
 
 
 
-.story, .facts {
+#story, .facts {
     padding: 5px;
 }
 
