@@ -3,6 +3,10 @@ body {
     font-family: 'Open Sans';
 }
 
+.about {
+    background-color: #ffe6ac;
+}
+
 .wrapper {
     max-width: 1200px; /* The maximum width of the container is 1200px */
 }
