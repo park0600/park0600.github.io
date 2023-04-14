@@ -1,3 +1,22 @@
+.nav_wrapper {
+    background-color: #222;
+    color: #c78c06;
+}
+
+.logo {
+    background-color: #c78c06;
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+#home {
+    background-color: #c78c06;
+    color: #222;
+}
+
 body {
     background-color: white;
     font-family: 'Open Sans';
