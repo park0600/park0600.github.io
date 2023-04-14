@@ -220,8 +220,32 @@ body {
     font-size: 0.7rem;
 }
 
+.vision_wrapper {
+    background-image: url(/images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0.5em;
+    color: white;
+}
 
+.vision_wrapper h4 {
+    margin: 0;
+}
 
+.vision_wrapper p {
+    font-size: 0.4em;
+}
+
+.vision_wrapper button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    font-size: 0.7em;
+    padding: 1em;
+    border: 1px solid;
+    border-color: #c78c06;
+}
 
 
 .wrapper {
