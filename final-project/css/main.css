@@ -7,6 +7,12 @@ body {
     background-color: #ffe6ac;
 }
 
+.digital, .marketing, .video, .web, .print {
+    background-color: #ffe6ac;
+    margin: 1rem;
+    padding: 1rem;
+}
+
 .wrapper {
     max-width: 1200px; /* The maximum width of the container is 1200px */
 }
