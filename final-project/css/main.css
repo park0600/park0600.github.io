@@ -2,6 +2,7 @@
 .nav_wrapper {     
     background-color: #222;
     color: #c78c06;
+    padding: 0.5em;
 }
 
 .logo {
@@ -26,6 +27,14 @@ header ul li {
     color: #222;
 }
 
+header form {
+    margin: 0;
+    font-size: 0.7em;
+}
+
+header input::placeholder {
+    font-size: 0.7em;
+}
 
 /* welcome */
 .welcome_wrapper {
@@ -68,8 +77,24 @@ body {
     font-family: 'Open Sans';
 }
 
-.about {
-    background-color: #ffe6ac;
+.about_wrapper {
+    background-color: #ffe6ac;   
+    padding: 0.5em; 
+}
+
+.about_wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about_wrapper p {
+    font-size: 0.4em;
+}
+
+.about_wrapper h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
 }
 
 .digital, .marketing, .video, .web, .print {
