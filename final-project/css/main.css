@@ -97,11 +97,132 @@ body {
 
 }
 
+.service_wrapper h2 {
+    margin-bottom: 0.3em;
+}
+
 .digital, .marketing, .video, .web, .print {
     background-color: #ffe6ac;
-    margin: 1rem;
-    padding: 1rem;
+    margin-bottom: 0.5em;
 }
+
+.digital img {
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+
+.digital .text {
+    padding: 0.5em;
+}
+
+.digital p {
+    font-size: 0.5em;
+}
+
+.digital button {
+    background-color:#222;
+    color: white;
+    border: 0px;   
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+
+
+.marketing img {
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+
+.marketing .text {
+    padding: 0.5em;
+}
+
+.marketing p {
+    font-size: 0.5em;
+}
+
+.marketing button {
+    background-color:#222;
+    color: white;
+    border: 0px;   
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+
+
+.video img {
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+
+.video .text {
+    padding: 0.5em;
+}
+
+.video p {
+    font-size: 0.5em;
+}
+
+.video button {
+    background-color:#222;
+    color: white;
+    border: 0px;   
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+
+
+.web img {
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+
+.web .text {
+    padding: 0.5em;
+}
+
+.web p {
+    font-size: 0.5em;
+}
+
+.web button {
+    background-color:#222;
+    color: white;
+    border: 0px;   
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+
+
+.print img {
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+
+.print .text {
+    padding: 0.5em;
+}
+
+.print p {
+    font-size: 0.5em;
+}
+
+.print button {
+    background-color:#222;
+    color: white;
+    border: 0px;   
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+
+
+
+
 
 .wrapper {
     max-width: 1200px; /* The maximum width of the container is 1200px */
