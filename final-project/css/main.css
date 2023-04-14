@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+} 
+ 
  /* header */
 .nav_wrapper {     
     background-color: #222;
@@ -28,12 +32,29 @@ header ul li {
 }
 
 header form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     font-size: 0.7em;
 }
 
+header form input {    
+    width: 90%;
+}
+
 header input::placeholder {
     font-size: 0.7em;
+}
+
+.nav_wrapper form i {
+    padding: 0.3em;
+    border: 1px solid;
+    border-color: #c78c06;
+}
+
+.nav_wrapper form input {
+    margin: 0;
 }
 
 /* welcome */
