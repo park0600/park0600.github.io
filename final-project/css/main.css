@@ -17,8 +17,13 @@ body {
 }
 
 .logo {
-    background-color: #c78c06;      /* Set background color */
+    background-color: #c78c06;      /* Set background color and logo size */
     margin: 0;
+}
+
+.logo img {
+    width: 15%;
+    height: auto;
 }
 
 header ul {
