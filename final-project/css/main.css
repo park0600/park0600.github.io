@@ -112,8 +112,8 @@ header input::placeholder {
 }
 
 .about-wrapper h2 {
-    margin-bottom: 0.5em;
-
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 /* service */
@@ -144,6 +144,11 @@ header input::placeholder {
     padding: 0.5em;
 }
 
+.digital h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .digital p {
     font-size: 0.5em;
 }
@@ -165,6 +170,11 @@ header input::placeholder {
 
 .marketing .text {
     padding: 0.5em;
+}
+
+.marketing h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .marketing p {
@@ -190,6 +200,11 @@ header input::placeholder {
     padding: 0.5em;
 }
 
+.video h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .video p {
     font-size: 0.5em;
 }
@@ -213,9 +228,15 @@ header input::placeholder {
     padding: 0.5em;
 }
 
+.web h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .web p {
     font-size: 0.5em;
 }
+
 
 .web button {
     background-color:#222;
@@ -234,6 +255,11 @@ header input::placeholder {
 
 .print .text {
     padding: 0.5em;
+}
+
+.print h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .print p {
@@ -255,6 +281,7 @@ header input::placeholder {
     background-position: center;
     margin: 0;
     padding: 0.5em;
+    padding-top: 1em;
     color: white;
 }
 
