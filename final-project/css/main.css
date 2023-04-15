@@ -388,6 +388,10 @@ header input::placeholder {
     border-color: darkgray;
 }
 
+#form {
+    margin-bottom: 1em;
+}
+
 #fname, #email {
     width: 99%;
     margin-bottom: 0.5em;
@@ -399,6 +403,7 @@ header input::placeholder {
     resize:none;
     border: 1px solid;
     border-color: darkgray;
+    margin-bottom: 0.5em;
 }
 
 #send {
@@ -408,6 +413,33 @@ header input::placeholder {
     padding: 0.2em;
     border: 0;
 }
+
+#hour {
+    border: 1px solid;
+    border-color: darkgray;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.5em;
+    margin-bottom: 1em;
+}
+
+#hour thead th, #hour td {
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+
+#hour th {
+    background-color: #ffe6ac;
+    padding: 0;
+    font-weight: 100;
+}
+
+.location iframe {
+    border: 0;
+    width: 100%;
+    height: 250px;
+}
+
 
 
 @media screen and (min-width: 760px) { /* min-width media query for 760px */
