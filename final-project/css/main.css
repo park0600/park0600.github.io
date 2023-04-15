@@ -61,7 +61,7 @@ header input::placeholder {
 
 /* welcome */
 .welcome-wrapper {
-    background-image: url(/images/main-banner.jpg);
+    background-image: url(../images/main-banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -275,7 +275,7 @@ header input::placeholder {
 }
 
 .vision-wrapper {
-    background-image: url(/images/vision.jpg);
+    background-image: url(../images/vision.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
