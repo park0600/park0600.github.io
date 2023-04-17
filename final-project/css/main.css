@@ -44,11 +44,74 @@ table {
 }
 
 
+/* body: max 1200px */
+body {
+    max-width: 1200px;
+	width: 100%;
+    background-color: white;
+    font-family: 'Open Sans';
+}
+
+
 /* nav: justify, align, form */
+header {
+    background-color: #222;
+}
 
+.nav-wrapper {
+	color: #c78c06;
+	padding: 0.5em;
+}
 
+header nav {
+	align-items: center;
+}
 
+header ul {
+	text-align: center;
+	font-size: 0.55em;
+}
 
+ul li {
+	padding: 1.1em;
+}
+
+.logo {
+	background-color: #c78c06;
+	height: 4em;
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 15%;
+}
+
+#home {
+	background-color: #c78c06;
+	color: #222;
+}
+
+header form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 0.7em;
+}
+
+header form input {
+	width: 90%;
+}
+
+header input::placeholder {
+	font-size: 0.7em;
+}
+
+.nav-wrapper form i {
+	padding: 0.3em;
+	border: 1px solid;
+	border-color: #c78c06;
+}
 
 
 /* welcome: wrapper, bg img, bg color, button,  */
@@ -103,3 +166,8 @@ table {
 
 
 /* footer: bg color */
+
+
+
+
+
