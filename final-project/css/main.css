@@ -60,8 +60,13 @@ p {
 
 h2 {
 	font-size: 1.4em;
-	font-weight: 610;
+	font-weight: bolder;
 	padding-top: 0.5em;
+}
+
+h4 {
+	font-size: 0.9em;
+	font-weight: 650;
 }
 
 
@@ -184,10 +189,42 @@ header input::placeholder {
 
 
 /* service: wrapper, img with, button, flex box */
+.service-wrapper {
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
 
+.service-wrapper h2 {
+	padding-bottom: 0.5em;
+}
 
+.service-wrapper img {
+	width: 100%;
+	height: auto;
+}
 
+.digital, .marketing, .video, .web, .print {
+	background-color: #ffe6ac;
+	margin-bottom: 0.5em;
+}
 
+.service-wrapper h4 {
+	padding-top: 0.5em;
+	padding-bottom: 0.7em;
+}
+
+.service-wrapper button {
+	background-color: #222;
+	color: white;
+	border: 0;
+	font-size: 0.6em;
+	padding: 1.8em;
+}
+
+.service-wrapper .text {
+	padding: 0.5em;
+}
 
 
 /* vision: bg img, button */
