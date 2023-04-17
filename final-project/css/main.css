@@ -58,7 +58,12 @@ body {
 }
  
  /* header */
-.nav-wrapper {     
+header {
+    background-color: #222;
+}
+
+.nav-wrapper {
+    margin: ;
     background-color: #222;     /* Set background color and font color */
     color: #c78c06;
     padding: 0.5em;
@@ -503,8 +508,19 @@ header input::placeholder {
 }
 
 
-@media screen and (min-width: 760px) { /* min-width media query for 760px */
+/* desktop size */
+
+/* desktop size */
+@media screen and (min-width: 1200px) {
     .wrapper {
-        margin: 0;
+        width: 1200px;
     }
+}
+
+@media screen and (min-width: 760px) { /* min-width media query for 760px */
+
+.nav-wrapper {
+    width: 80%;
+}
+
 }
