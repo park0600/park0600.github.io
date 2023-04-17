@@ -137,8 +137,7 @@ header input::placeholder {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-block: 2rem;
 }
 
 .welcome {
@@ -151,8 +150,7 @@ header input::placeholder {
 	font-size: 2em;
 	font-weight: 700;
 	line-height: 1.5em;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-block: 1rem;
 }
 
 .welcome p {
@@ -191,8 +189,7 @@ header input::placeholder {
 /* service: wrapper, img with, button, flex box */
 .service-wrapper {
 	padding-top: 0.5em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	padding-block: 0.5em;
 }
 
 .service-wrapper h2 {
@@ -210,8 +207,7 @@ header input::placeholder {
 }
 
 .service-wrapper h4 {
-	padding-top: 0.5em;
-	padding-bottom: 0.7em;
+	padding-block: 0.5em;
 }
 
 .service-wrapper button {
@@ -219,7 +215,8 @@ header input::placeholder {
 	color: white;
 	border: 0;
 	font-size: 0.6em;
-	padding: 1.8em;
+	width: 120px;
+	height: 60px;
 }
 
 .service-wrapper .text {
@@ -228,9 +225,28 @@ header input::placeholder {
 
 
 /* vision: bg img, button */
+.vision-wrapper {
+	background-image: url(/images/vision.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 0.5em;
+}
 
+.vision-wrapper h4 {
+	padding-block: 0.5em;
+}
 
-
+.vision-wrapper button {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 0.6em;
+	border: 1px solid;
+	border-color: #c78c06;
+	width: 120px;
+	height: 60px;
+}
 
 
 
