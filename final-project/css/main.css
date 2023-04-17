@@ -377,6 +377,23 @@ header input::placeholder {
 
 
 /* footer: bg color */
+.footer-wrapper {
+	background-color: #222;
+	width: 100%;
+	color: #c78c06;
+	font-size: 0.5em;
+	padding: 1em;
+	padding-top: 2em;
+}
+
+.footer-wrapper a:link {
+	color: #c78c06;
+}
+
+.footer-wrapper a:visited {
+	color: #c78c06;
+}
+
 
 
 
