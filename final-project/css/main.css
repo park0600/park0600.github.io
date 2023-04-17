@@ -188,7 +188,6 @@ header input::placeholder {
 
 /* service: wrapper, img with, button, flex box */
 .service-wrapper {
-	padding-top: 0.5em;
 	padding-block: 0.5em;
 }
 
@@ -251,9 +250,43 @@ header input::placeholder {
 
 
 /* team: wrapper, img with, Grid */
+.team-wrapper {
+	padding-inline: 0.5em;
+}
 
+.team-wrapper h2 {
+	padding-block: 0.5em;
+}
 
+.team-wrapper .photo img {
+	width: 100%;
+	height: auto;
+}
 
+.ceo {
+	background-color: #ffe6ac;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.ceo h4 {
+	padding-block: 0.3em;
+}
+
+.ceo h6 {
+	font-size: 0.5em;
+	font-weight: bold;
+}
+
+.ceo hr {
+	margin: 0;
+	border: 1px solid;
+	border-color: #c78c06;
+}
+
+.ceo p {
+	padding-block: 2em;
+}
 
 
 /* contact-message: wrapper, form, button,  */
