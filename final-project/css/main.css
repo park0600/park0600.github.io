@@ -70,11 +70,11 @@ body {
 	p {
 		font-size: 0.4rem;
 		font-weight: 400;
-		line-height: 1.4em;
+		line-height: 1.5em;
 	}
 
 	.welcome-wrapper button, .service-wrapper button, .vision-wrapper button {
-		padding: 15px 22px;
+		padding: 20px 20px;
 		width: auto;
 		white-space: nowrap;
 		display: flex;
@@ -84,9 +84,13 @@ body {
 		font-weight: lighter;
 	}
 
+	.welcome-wrapper p {
+		font-size: 1rem;
+	}
+
 	.welcome-wrapper i, .service-wrapper i, .vision-wrapper i {
 		font-size: 0.9rem;
-		padding: 0.2em;
+		padding-inline: 0.2em;
 	}
 
 	/* nav: justify, align, form */
@@ -199,6 +203,10 @@ body {
 
 	.about-wrapper h2, p {
 		padding-bottom: 0.7rem;
+	}
+
+	.about-wrapper h2 {
+		padding-top: 0.5em;
 	}
 
 
