@@ -109,3 +109,13 @@ table {
 
 
 /* footer: a:visited, padding */
+
+
+
+
+/* media querie */
+@media screen and (min-width: 1200px) {
+    body {
+        width: 1200px;
+    }
+}
