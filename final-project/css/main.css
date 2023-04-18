@@ -398,4 +398,51 @@ header input::placeholder {
 
 
 
+/* media querie */
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        width: 1200px;
+    }
+}
 
+@media screen and (min-width: 760px) { 		/* min-width media query for 760px */
+/* body: font resizing  */
+
+
+
+/* header: align, wrapper */
+
+
+
+
+/* welcome: wrapper, button */
+
+
+
+
+
+/* about: float, wrapper */
+
+
+
+
+/* service: wrapper, button size, flexbox item sizing 6*2* * /
+
+
+
+
+/* vision: button size */
+
+
+
+
+/* team: Grid to palce contents */
+
+
+
+
+/* contact: wrapper, Grid alignment to place contents, size */
+
+
+	
+	}
