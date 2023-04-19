@@ -378,7 +378,48 @@ header form i {
 
 @media screen and (min-width: 760px) {
 /* body: wrapper, font style, button style */
+.wrapper {
+    padding-inline:70px;
+}
 
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 0.8em 0 0.4em 0;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0.3em 0 0.5em 0;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.7em 0 0.5em 0;
+}
+
+h6 {
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.5em;
+    line-height: 1.5em;
+}
+
+
+.welcome button, .service button, .vision button {
+    font-size: 0.7rem;
+}
+
+.welcome i, .service i, .vision i {
+    font-size: 0.9rem;
+    padding-inline: 0.4em;
+}
 
 /* header: flex, justify-content, align items */
 
@@ -386,9 +427,15 @@ header form i {
 
 
 /* welcome: flex, float */
+.welcome button {
+    padding: 20px 25px;
+    display: flex;
+}
 
-
-
+.welcome .box {
+    margin-inline: 70px;
+    top: 48%;
+}
 
 /* service: flex 6*2 */
 
