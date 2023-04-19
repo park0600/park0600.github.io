@@ -83,9 +83,9 @@ h1 {
 }
 
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
-    margin: 1em 0 0.5em 0;
+    margin: 0.3em 0 0.5em 0;
 }
 
 h4 {
@@ -101,6 +101,7 @@ h6 {
 p {
     font-size: 0.4rem;
     line-height: 1.5em;
+    padding-block: 0.5em ;
 }
 
 
@@ -207,9 +208,13 @@ header form i {
 
 
 /* service: section margin, button color, magrin for each contents */
+.about {
+    padding-block: 10px;
+}
 
-
-
+.about div {
+    padding-block: 0.5em;
+}
 
 /* vision: bg img, button color */
 
