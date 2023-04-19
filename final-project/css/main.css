@@ -90,7 +90,7 @@ h2 {
 
 h4 {
     font-weight: bold;
-    padding: 1em 0 0.5em 0;
+    padding: 0.7em 0 0.5em 0;
 }
 
 h6 {
@@ -101,7 +101,6 @@ h6 {
 p {
     font-size: 0.4rem;
     line-height: 1.5em;
-    padding-block: 0.5em ;
 }
 
 
@@ -188,6 +187,7 @@ header form i {
     background-image: url(/images/main-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 360px;
     color: white;
 }
@@ -207,7 +207,7 @@ header form i {
 
 
 
-/* service: section margin, button color, magrin for each contents */
+/* service */
 .about {
     padding-block: 10px;
 }
@@ -216,38 +216,151 @@ header form i {
     padding-block: 0.5em;
 }
 
-/* vision: bg img, button color */
+.about p {
+    padding-block: 0.5em;
+}
 
+/* service: section margin, button color, magrin for each contents */
+.service {
+    padding-block: 1em;
+}
+
+.service button {
+    background-color: #222;
+    color: white;
+    border: 0;
+}
+
+.digital .text, .marketing .text, .video .text, .web .text, .print .text {
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.digital p, .marketing p, .video p, .web p, .print p {
+    padding-block: 0.5em;
+}
+
+
+/* vision: bg img, button color */
+.vision {
+    background-image: url(/images/vision.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 170px;
+    background-size: cover;
+    color: white;
+}
+
+.vision button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid #c78c06;
+}
 
 
 
 /* team: section margin, div*4 */
+.team {
+    padding-block: 1em;
+}
+
+.team hr {
+    margin: 0;
+    border: 1px solid #c78c06;
+}
+
+.team p {
+    padding: 10px 0 15px 0;
+}
+
+.ceo {
+    margin-bottom: 10px;
+}
 
 
 
 
 /* contact: div*3, section margin */
+.contact form {
+    font-size: 0.5rem;
+}
+
+.contact input {
+    font-size: 0.6rem;
+    border: 1px solid darkgrey;
+    margin-block: 0.5em;
+}
+
+#fname, #email {
+    width: 100%;
+}
 
 
 
 
 /* message: form size, button */
+#message {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    border: 1px solid darkgrey;
+    font-size: 0.6rem;
+    margin-block: 0.5em;
+}
 
+#send {
+	background-color: #222;
+	border: 0;
+	color: #c78c06;
+	font-size: 0.6rem;
+	width: 40px;
+	height: 20px;
+	margin-block: 0.5em;
+}
 
 
 
 /* hour: table, padding */
+#hour {
+	width: 100%;
+}
 
+#hour th, td {
+	font-size: 0.4rem;
+	border: 1px solid darkgray;
+	padding: 10px;
+}
+
+#hour th {
+	background-color: #ffe6ac;
+}
 
 
 /* location: map size */
-
+.location iframe {
+	width: 100%;
+	height: 250px;
+}
 
 
 
 /* footer: a:visited, padding */
+.footer  {
+	background-color: #222;
+	width: 100%;
+	color: #c78c06;
+	font-size: 0.5rem;
+	padding: 1em;
+}
 
+.footer p {
+    padding-block: 0.4em;
+}
 
+.footer a:visited {
+	color: #c78c06;
+}
 
 
 /* media querie */
