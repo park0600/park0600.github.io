@@ -373,3 +373,40 @@ header form i {
         width: 1200px;
     }
 }
+
+/* desktop */
+
+@media screen and (min-width: 760px) {
+/* body: wrapper, font style, button style */
+
+
+/* header: flex, justify-content, align items */
+
+
+
+
+/* welcome: flex, float */
+
+
+
+
+/* service: flex 6*2 */
+
+
+
+
+
+/* vision */
+
+
+
+
+/* team: grid */
+
+
+
+
+/* contact: grid */
+
+
+}
