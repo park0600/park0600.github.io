@@ -57,7 +57,7 @@ body {
 
 /* wrapper: 10px, margin:0 */
 .wrapper {
-    margin: auto;
+    margin: 0 auto;
     padding-inline: 10px;
 }
 
@@ -378,7 +378,7 @@ header form i {
 
 @media screen and (min-width: 760px) {
 .wrapper {
-    padding-inline:70px;
+    padding-inline:80px;
 }
 
 h1 {
@@ -422,10 +422,10 @@ p {
 
 /* header: flex, justify-content, align items */
 .header {
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 80px;
 }
 
 .logo {
@@ -485,16 +485,25 @@ p {
 }
 
 .about .wrapper {
-    padding-block: 0;
+    /* padding-block: 0; */
 }
 
 /* service: flex 6*2 */
+.service .contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contents .digital, .contents .marketing {
+    width: 49.5%;
+}
 
 
 
 
 
-/* vision */
 
 
 
