@@ -44,6 +44,9 @@ table {
 }
 
 
+
+
+
 /* body: bg color, font-family, font-size(h1, h2, h4, p) */
 body {
     width: 100%;
@@ -76,6 +79,7 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.5em;
+    padding: 0.8em 0 0.5em 0;
 }
 
 h2 {
@@ -88,6 +92,19 @@ h4 {
     font-weight: bold;
     padding: 1em 0 0.5em 0;
 }
+
+h6 {
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.4rem;
+    line-height: 1.5em;
+}
+
+
+/* background color */
 
 .about, .digital, .marketing, .video, .web, .print, .ceo {
     background-color: #ffe6ac;
