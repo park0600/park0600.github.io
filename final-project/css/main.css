@@ -472,6 +472,21 @@ p {
 }
 
 
+/* about: float */
+.about {
+    display: flex;
+}
+
+.about img {
+    width: 48%;
+    float: left;
+    padding: 0 10px 0 0;
+    align-items: center;
+}
+
+.about .wrapper {
+    padding-block: 0;
+}
 
 /* service: flex 6*2 */
 
