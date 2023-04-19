@@ -478,7 +478,7 @@ p {
 }
 
 .about img {
-    width: 48%;
+    width: 45%;
     float: left;
     padding: 0 10px 0 0;
     align-items: center;
@@ -496,8 +496,23 @@ p {
     justify-content: space-between;
 }
 
+.contents .text {
+    margin: 0;
+}
+
+.contents button {
+    width: 100%;
+    ;
+}
+
 .contents .digital, .contents .marketing {
     width: 49.5%;
+    margin-bottom: 5px;
+}
+
+.contents .video, .contents .web, .contents .print {
+    width: 32.7%;
+    justify-content: flrx-end;
 }
 
 
