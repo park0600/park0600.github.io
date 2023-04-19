@@ -116,83 +116,87 @@
 
         <!-- Team : align contents using flex -->
         <section>
-            <div class="team wrapper">
+            <div class="wrapper">
                 <h2>Our Team</h2>
-                <div class="photo-john"><img src="images/john.jpg" alt="a photo of John Doe"></div>
-                <div class="ceo john">
-                    <h4>John Doe</h4>
-                    <h6>CEO and Co-owner</h6>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dolor id, suscipit maiores dolorum quaerat aut eos qui, veritatis quasi molestias odio veniam laborum pariatur voluptatum? Sapiente sed facere itaque.</p>
+                <div class="team">
+                    <div class="photo-john"><img src="images/john.jpg" alt="a photo of John Doe"></div>
+                    <div class="info john">
+                        <h4>John Doe</h4>
+                        <h6>CEO and Co-owner</h6>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dolor id, suscipit maiores dolorum quaerat aut eos qui, veritatis quasi molestias odio veniam laborum pariatur voluptatum? Sapiente sed facere itaque.</p>
+                    </div>
+                    <div class="photo-bob"><img src="images/bob.jpg" alt="a photo of Bob Rite"></div>
+                    <div class="info bob">
+                        <h4>Bob Rite</h4>
+                        <h6>CFO and Co-owner</h6>
+                        <hr>
+                        <p>Neque, voluptatum totam! Architecto laborum quasi assumenda quas! Odit sint recusandae laudantium sed accusantium qui, tempore perspiciatis quidem consectetur earum obcaecati distinctio repudiandae unde ut voluptatem delectus velit consequuntur tempora.</p>
+                    </div>
                 </div>
-                <div class="photo-bob"><img src="images/bob.jpg" alt="a photo of Bob Rite"></div>
-                <div class="ceo bob">
-                    <h4>Bob Rite</h4>
-                    <h6>CFO and Co-owner</h6>
-                    <hr>
-                    <p>Neque, voluptatum totam! Architecto laborum quasi assumenda quas! Odit sint recusandae laudantium sed accusantium qui, tempore perspiciatis quidem consectetur earum obcaecati distinctio repudiandae unde ut voluptatem delectus velit consequuntur tempora.</p>
-                </div>                    
             </div>
         </section>
 
         <!-- Contact : use form and table tags -->
         <section>
-            <div class="contact wrapper">
+            <div class="wrapper">
                 <h2>Contact Us</h2>
-                <div class="message">
-                    <h4>Send us a message</h4>
-                    <div class="form">
-                        <form action="index.html" method="get">
-                            <div>
-                                <label for="fname">Full Name</label>
-                                <input type="text" id="fname" name="fname">
-                            </div>
-                        </form>
-                        <form action="index.html">
-                            <div>
-                                <label for="email">Email</label>
-                                <input type="text" id="email" name="email">
-                            </div>
-                        </form>
-                        <form action="index.html">
-                            <div>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message"></textarea>
-                            </div>
-                            <div>
-                                <button id="send">Send</button>
-                            </div>                                
-                        </form>
+                <div class="contact">
+                    <div class="message">
+                        <h4>Send us a message</h4>
+                        <div class="form">
+                            <form action="index.html" method="get">
+                                <div>
+                                    <label for="fname">Full Name</label>
+                                    <input type="text" id="fname" name="fname">
+                                </div>
+                            </form>
+                            <form action="index.html">
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                            </form>
+                            <form action="index.html">
+                                <div>
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message"></textarea>
+                                </div>
+                                <div>
+                                    <button id="send">Send</button>
+                                </div>                                
+                            </form>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Hours of operation : table tag -->                        
-                <div class="hour">
-                    <h4>Hours of operation</h4>
-                    <table id="hour">
-                        <thead>
-                            <tr>
-                                <th>Days</th>
-                                <th>Hours</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Monday-Frida</td>
-                                <td>9 AM-6 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday-Sunday</td>
-                                <td>Closed</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                    <!-- Hours of operation : table tag -->                        
+                    <div class="hour">
+                        <h4>Hours of operation</h4>
+                        <table id="hour">
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday-Frida</td>
+                                    <td>9 AM-6 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday-Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
-                <!-- location-iframe -->
-                <div class="location">
-                    <h4>Location</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9679.588191368375!2d-75.75765968099225!3d45.34916976125363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2z7JWM6rOk7YKoIOy5vOumrOyngCDsmKTtg4DsmYAg7Lqg7Y287Iqk!5e0!3m2!1sko!2sca!4v1680283598327!5m2!1sko!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- location-iframe -->
+                    <div class="location">
+                        <h4>Location</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9679.588191368375!2d-75.75765968099225!3d45.34916976125363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2z7JWM6rOk7YKoIOy5vOumrOyngCDsmKTtg4DsmYAg7Lqg7Y287Iqk!5e0!3m2!1sko!2sca!4v1680283598327!5m2!1sko!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </section>

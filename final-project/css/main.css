@@ -106,11 +106,11 @@ p {
 
 /* background color */
 
-.about, .digital, .marketing, .video, .web, .print, .ceo {
+.about, .digital, .marketing, .video, .web, .print {
     background-color: #ffe6ac;
 }
 
-.about text, .digital text, .marketing text, .video text, .web text, .print text, .ceo {
+.about text, .digital text, .marketing text, .video text, .web text, .print text, .info {
     background-color: #ffe6ac;
     padding: 0 10px 0 10px;
 }
@@ -274,7 +274,7 @@ header form i {
     padding: 10px 0 15px 0;
 }
 
-.ceo {
+.info {
     margin-bottom: 10px;
 }
 
@@ -367,6 +367,7 @@ header form i {
 }
 
 
+
 /* media querie */
 @media screen and (min-width: 1200px) {
     body {
@@ -406,7 +407,7 @@ h6 {
 }
 
 p {
-    font-size: 0.5em;
+    font-size: 0.5rem;
     line-height: 1.5em;
 }
 
@@ -488,7 +489,7 @@ p {
     /* padding-block: 0; */
 }
 
-/* service: flex 6*2 */
+/* service: flex */
 .service .contents {
     display: flex;
     flex-direction: row;
@@ -502,7 +503,6 @@ p {
 
 .contents button {
     width: 100%;
-    ;
 }
 
 .contents .digital, .contents .marketing {
@@ -518,17 +518,57 @@ p {
 
 
 
-
-
-
-
-
 /* team: grid */
+.team {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "block1 block2"
+    "block3 block4"
+}
 
+.team div {
+    width: 340px;
+    height: 227px;
+    margin: 0;
+}
+
+.photo-john {
+    grid-area: block1;
+}
+
+.photo-bob {
+    grid-area: block4;
+}
+
+.info .john {
+    grid-area: block2;
+}
+
+.info .bob {
+    grid-area: block3;
+}
 
 
 
 /* contact: grid */
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.message, .location {
+    flex-basis: 49%;
+}
 
+.hour {
+    order: 1;
+    flex-basis: 100%;
+}
+
+#hour th, td {
+	font-size: 0.45rem;
 }
