@@ -374,10 +374,9 @@ header form i {
     }
 }
 
-/* desktop */
+/* desktop media querie*/
 
 @media screen and (min-width: 760px) {
-/* body: wrapper, font style, button style */
 .wrapper {
     padding-inline:70px;
 }
@@ -426,7 +425,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 80px;
+    padding: 15px 80px;
 }
 
 .logo {
@@ -438,8 +437,6 @@ p {
     display: flex;
     font-size: 0.6rem;
 }
-
-
 
 .header ul li:nth-child(2),
 .header ul li:nth-child(3),
@@ -459,15 +456,19 @@ p {
     width: 160px;
 }
 
-/* welcome: flex, float */
+/* welcome */
+.welcome {
+    height: 360px;
+}
+
 .welcome button {
     padding: 20px 25px;
-    display: flex;
 }
 
 .welcome .box {
     margin-inline: 70px;
-    top: 48%;
+    top: 19%;
+    padding-left: 10px;
 }
 
 
