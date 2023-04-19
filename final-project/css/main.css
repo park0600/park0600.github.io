@@ -55,10 +55,10 @@ body {
 }
 
 
-/* wrapper: 15px, margin:0 */
+/* wrapper: 10px, margin:0 */
 .wrapper {
     margin: auto;
-    padding-inline: 15px;
+    padding-inline: 10px;
 }
 
 /* header, footer */
@@ -112,7 +112,7 @@ p {
 
 .about .text, .digital .text, .marketing .text, .video .text, .web .text, .print .text, .ceo {
     background-color: #ffe6ac;
-    padding: 0 15px 0 15px;
+    padding: 0 10px 0 10px;
 }
 
 
@@ -122,8 +122,52 @@ p {
 
 
 /* header: center menu, home bg color, form */
+header {
+    color: #c78c06;
+    font-size: 0.5rem;
+    padding-block: 10px;
+}
 
+.logo img {
+    width: 6em;
+}
 
+.logo {
+    background-color: #c78c06;
+    padding-block: 1em;
+}
+
+header ul {
+    text-align: center;
+}
+
+header ul li {
+    padding: 1.3em;
+}
+
+#home {
+    background-color: #c78c06;
+    color: #222;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+header form input {
+    width: 90%;
+}
+
+header input::placeholder {
+    font-size: 0.7em;
+}
+
+header form i {
+    border: 1px solid #c78c06;
+    padding: 0.3em;
+}
 
 
 /* welcome: bg img, bg color, button color */
