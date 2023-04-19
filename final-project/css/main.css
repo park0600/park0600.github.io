@@ -79,7 +79,7 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.5em;
-    padding: 0.8em 0 0.5em 0;
+    padding: 0.8em 0 0.4em 0;
 }
 
 h2 {
@@ -110,14 +110,26 @@ p {
     background-color: #ffe6ac;
 }
 
-.about .text, .digital .text, .marketing .text, .video .text, .web .text, .print .text, .ceo {
+.about text, .digital text, .marketing text, .video text, .web text, .print text, .ceo {
     background-color: #ffe6ac;
     padding: 0 10px 0 10px;
 }
 
 
 /* button style */
+.welcome button, .service button, .vision button {
+    padding: 20px 20px;
+    font-family: 'Open Sans';
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin-block: 0.5em;
+    display: flex;
+}
 
+.welcome i, .service i, .vision i {
+    font-size: 0.9rem;
+    padding-inline: 0.2em;
+}
 
 
 
@@ -171,8 +183,26 @@ header form i {
 
 
 /* welcome: bg img, bg color, button color */
+.welcome {
+    background-image: url(/images/main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    color: white;
+}
 
+.welcome .box {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    padding-bottom: 0.2em;
+}
 
+.welcome button {
+    background-color: #c78c06;
+    color: #222;
+    border: 0;
+}
 
 
 
