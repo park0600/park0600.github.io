@@ -422,9 +422,42 @@ p {
 }
 
 /* header: flex, justify-content, align items */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.logo {
+    padding: 0;
+}
+
+.header ul {
+    width: 400px;
+    display: flex;
+    font-size: 0.6rem;
+}
 
 
 
+.header ul li:nth-child(2),
+.header ul li:nth-child(3),
+.header ul li:nth-child(4),
+.header ul li:nth-child(5)  {
+    white-space: nowrap;
+    padding: 15px 23px;
+}
+
+#home {
+    padding: 15px 26px;
+}
+
+
+.header form {
+    display: flex;
+    width: 160px;
+}
 
 /* welcome: flex, float */
 .welcome button {
@@ -436,6 +469,8 @@ p {
     margin-inline: 70px;
     top: 48%;
 }
+
+
 
 /* service: flex 6*2 */
 
