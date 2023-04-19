@@ -44,11 +44,62 @@ table {
 }
 
 
-/* body: max 1200px, bg color, font-family, font-size(h1, h2, h4, p) */
-
+/* body: bg color, font-family, font-size(h1, h2, h4, p) */
+body {
+    width: 100%;
+    background-color: white;
+    font-family: 'Open Sans';
+}
 
 
 /* wrapper: 15px, margin:0 */
+.wrapper {
+    margin: auto;
+    padding-inline: 15px;
+}
+
+/* header, footer */
+header, footer {
+    background-color: #222;
+}
+
+
+/* img, map size */
+.about img, .service img, .team img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* font style */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+
+h4 {
+    font-weight: bold;
+    padding: 1em 0 0.5em 0;
+}
+
+.about, .digital, .marketing, .video, .web, .print, .ceo {
+    background-color: #ffe6ac;
+}
+
+.about .text, .digital .text, .marketing .text, .video .text, .web .text, .print .text, .ceo {
+    background-color: #ffe6ac;
+    padding: 0 15px 0 15px;
+}
+
+
+/* button style */
 
 
 
@@ -64,17 +115,7 @@ table {
 
 
 
-/* button style */
-
-
-
-
-/* about: img size */
-
-
-
-
-/* service: section margin, img size, button color, magrin for each contents */
+/* service: section margin, button color, magrin for each contents */
 
 
 
@@ -84,7 +125,7 @@ table {
 
 
 
-/* team: section margin, div*4, img size */
+/* team: section margin, div*4 */
 
 
 
