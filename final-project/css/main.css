@@ -126,7 +126,6 @@ p {
     font-family: 'Open Sans';
     font-size: 0.6rem;
     font-weight: 400;
-    margin-block: 0.5em;
     display: flex;
 }
 
@@ -208,6 +207,10 @@ header form i {
     background-color: #c78c06;
     color: #222;
     border: 0;
+}
+
+.welcome p {
+    padding: 0 0 10px 0;
 }
 
 
