@@ -196,7 +196,7 @@ header form i {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 50%;
-    padding-bottom: 0.2em;
+    padding: 0.5em;
 }
 
 .welcome button {
@@ -264,6 +264,8 @@ header form i {
 .team {
     padding-block: 1em;
 }
+
+.team h2 {}
 
 .team hr {
     margin: 0;
@@ -519,7 +521,7 @@ p {
 
 
 /* team: grid */
-.team {
+.member {
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -528,7 +530,7 @@ p {
     "block3 block4"
 }
 
-.team div {
+.member div {
     width: 340px;
     height: 227px;
     margin: 0;
@@ -571,4 +573,6 @@ p {
 
 #hour th, td {
 	font-size: 0.45rem;
+}
+
 }
