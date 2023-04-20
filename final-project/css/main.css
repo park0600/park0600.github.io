@@ -169,7 +169,7 @@ header form {
 }
 
 header form input {
-    width: 90%;
+    width: 100%;
 }
 
 header input::placeholder {
@@ -190,12 +190,14 @@ header form i {
     background-position: center;
     height: 360px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .welcome .box {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     padding: 0.5em;
 }
 
@@ -358,7 +360,7 @@ header form i {
 	color: #c78c06;
 	font-size: 0.5rem;
 	padding: 1em;
-    
+
 }
 
 .footer p {
