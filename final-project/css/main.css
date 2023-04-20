@@ -184,7 +184,7 @@ header form i {
 
 /* welcome: bg img, bg color, button color */
 .welcome {
-    background-image: url(/images/main-banner.jpg);
+    background-image: url(../images/main-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -245,7 +245,7 @@ header form i {
 
 /* vision: bg img, button color */
 .vision {
-    background-image: url(/images/vision.jpg);
+    background-image: url(../images/vision.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 170px;
