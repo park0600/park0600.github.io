@@ -358,6 +358,7 @@ header form i {
 	color: #c78c06;
 	font-size: 0.5rem;
 	padding: 1em;
+    
 }
 
 .footer p {
@@ -531,9 +532,10 @@ p {
 }
 
 .member div {
-    width: 340px;
-    height: 227px;
+    width: 100%;
+    height: auto;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .photo-john {
@@ -546,10 +548,12 @@ p {
 
 .info .john {
     grid-area: block2;
+    padding: 10px;
 }
 
 .info .bob {
     grid-area: block3;
+    padding: 10px;
 }
 
 
@@ -560,6 +564,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .message, .location {
