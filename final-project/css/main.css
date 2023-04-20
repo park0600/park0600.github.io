@@ -184,7 +184,6 @@ header form i {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 360px;
     color: white;
     display: flex;
     align-items: center;
@@ -248,7 +247,6 @@ header form i {
     background-image: url(../images/vision.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 170px;
     background-size: cover;
     color: white;
 }
