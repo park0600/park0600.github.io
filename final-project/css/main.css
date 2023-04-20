@@ -87,9 +87,9 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: bold;
-    margin: 0.3em 0 0.5em 0;
+    margin: 0.5em 0 0.5em 0;
 }
 
 h4 {
@@ -123,9 +123,10 @@ p {
 
 /* button style */
 .welcome button, .service button, .vision button {
-    padding: 30px 30px;
+    padding: 30px 40px;
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 500;
     display: flex;
 }
 
@@ -220,7 +221,7 @@ header form i {
 
 /* service: section margin, button color, magrin for each contents */
 .service {
-    padding-block: 1em;
+    padding-block: 1.5em;
 }
 
 .service button {
@@ -229,14 +230,16 @@ header form i {
     border: 0;
 }
 
-.digital .text, .marketing .text, .video .text, .web .text, .print .text {
-    padding-inline: 10px;
-    padding-bottom: 3px;
+.digital, .marketing, .video, .web, .print {
     margin-bottom: 10px;
 }
 
+.digital .text, .marketing .text, .video .text, .web .text, .print .text {
+    padding: 20px 10px 10px 10px;
+}
+
 .digital p, .marketing p, .video p, .web p, .print p {
-    padding-block: 0.5em;
+    padding: 10px 0 20px 0;
 }
 
 
@@ -247,12 +250,17 @@ header form i {
     background-position: center;
     background-size: cover;
     color: white;
+    padding: 20px 0 10px 0;
 }
 
 .vision button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: 1px solid #c78c06;
+}
+
+.vision p {
+    padding: 10px 0;
 }
 
 
