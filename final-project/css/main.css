@@ -166,7 +166,6 @@ header ul li {
 header form {
     display: flex;
     justify-content: center;
-    font-size: 0.8rem;
 }
 
 header form input {
@@ -290,12 +289,8 @@ header form i {
     padding-bottom: 10px;
 }
 
-/* .contact form {
-    font-size: 0.5rem;
-} */
 
 .contact input {
-    /* font-size: 0.6rem; */
     border: 1px solid darkgrey;
     margin-block: 0.5em;
 }
@@ -313,7 +308,6 @@ header form i {
     height: 80px;
     resize: none;
     border: 1px solid darkgrey;
-    /* font-size: 0.6rem; */
     margin-block: 0.5em;
 }
 
@@ -321,7 +315,6 @@ header form i {
 	background-color: #222;
 	border: 0;
 	color: #c78c06;
-	font-size: 0.6rem;
 	width: 40px;
 	height: 20px;
 	margin-block: 0.5em;
@@ -335,7 +328,6 @@ header form i {
 }
 
 #hour th, td {
-	/* font-size: 0.4rem; */
 	border: 1px solid darkgray;
 	padding: 10px;
 }
@@ -358,7 +350,6 @@ header form i {
 	background-color: #222;
 	width: 100%;
 	color: #c78c06;
-	/* font-size: 0.5rem; */
 	padding: 1em;
 
 }
@@ -412,17 +403,12 @@ h6 {
 }
 
 p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     line-height: 1.5em;
 }
 
 
-.welcome button, .service button, .vision button {
-    font-size: 0.7rem;
-}
-
 .welcome i, .service i, .vision i {
-    font-size: 0.9rem;
     padding-inline: 0.4em;
 }
 
@@ -441,7 +427,6 @@ p {
 .header ul {
     width: 400px;
     display: flex;
-    font-size: 0.6rem;
 }
 
 .header ul li:nth-child(2),
