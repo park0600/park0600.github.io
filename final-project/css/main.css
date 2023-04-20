@@ -123,9 +123,9 @@ p {
 
 /* button style */
 .welcome button, .service button, .vision button {
-    padding: 30px 40px;
+    padding: 2em 2.2em;
     font-family: 'Open Sans';
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 500;
     display: flex;
 }
@@ -397,14 +397,14 @@ header form i {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: bold;
     line-height: 1.5em;
     padding: 0.5em 0 0.4em 0;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 0.3em 0 0.5em 0;
 }
@@ -430,22 +430,39 @@ p {
     padding-inline: 0.4em;
 }
 
+.welcome button, .service button, .vision button {
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+    font-weight: 400;
+    display: flex;
+}
+
+.welcome i, .service i, .vision i {
+    font-size: 1.5em;
+}
+
+
 /* header: flex, justify-content, align items */
+.wrapper {
+    padding: 0 110px;
+}
+
 .header {
-    height: 80px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
+.logo, .logo img {
+    width: 75px;
+    height: auto;
     padding: 0;
 }
 
 .header ul {
-    width: 400px;
+    width: 100%;
     display: flex;
-    padding: 10px 10px;
 }
 
 .header ul li:nth-child(2),
@@ -453,17 +470,18 @@ p {
 .header ul li:nth-child(4),
 .header ul li:nth-child(5)  {
     white-space: nowrap;
-    padding: 15px 23px;
+    width: 80px;
+    /* padding: 20px 20px; */
 }
 
 #home {
-    padding: 15px 26px;
+    padding: 20px 30px;
 }
 
 
 .header form {
     display: flex;
-    width: 160px;
+    width: 220px;
 }
 
 /* welcome */
@@ -472,11 +490,11 @@ p {
 }
 
 .welcome button {
-    padding: 20px 25px;
+    padding: 1.5em 1.5em;
 }
 
 .welcome .box {
-    margin-inline: 70px;
+    margin-inline: 100px;
     padding-left: 10px;
 }
 
@@ -487,9 +505,9 @@ p {
 }
 
 .about img {
-    width: 45%;
+    width: 50%;
     float: left;
-    padding: 0 10px 0 0;
+    padding: 10px 10px 10px 0;
     align-items: center;
 }
 
@@ -498,6 +516,10 @@ p {
 }
 
 /* service: flex */
+.service {
+    margin: 50px 0 0 0;
+}
+
 .service .contents {
     display: flex;
     flex-direction: row;
