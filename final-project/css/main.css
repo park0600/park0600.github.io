@@ -185,7 +185,7 @@ header form i {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     padding-block: 10em;
 }
