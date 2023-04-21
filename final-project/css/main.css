@@ -395,10 +395,7 @@ header form i {
 /* desktop media querie*/
 
 @media screen and (min-width: 760px) {
-.wrapper {
-    padding: 0 110px;
-    margin: 0 auto;
-}
+
 
 h1 {
     font-size: 3.4rem;
