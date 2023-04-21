@@ -387,14 +387,18 @@ header form i {
 
 /* media querie */
 @media screen and (min-width: 1200px) {
-    body {
-        max-width: 1200px;
-    }
+.wrapper {
+    max-width: 1200px;
+}
 }
 
 /* desktop media querie*/
 
 @media screen and (min-width: 760px) {
+
+.wrapper {
+    max-width: 80%;
+}
 
 
 h1 {
