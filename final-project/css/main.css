@@ -522,7 +522,7 @@ p {
 /* service: flex */
 .service {
     margin: 50px 0 0 0;
-    max-width: 1040px;
+    /* max-width: 1040px; */
 }
 
 .service .contents {
@@ -610,7 +610,7 @@ p {
 /* contact: grid */
 .contact {
     margin: 50px 0 0 0;
-    max-width: 1040px;
+    /* max-width: 1040px; */
 }
 
 .information {
