@@ -72,6 +72,7 @@ header, footer {
     width: 100%;
     height: auto;
     margin: 0;
+    display: block;
 }
 
 /* font style */
@@ -348,7 +349,7 @@ header form i {
 
 #hour th, td {
 	border: 1px solid;
-	padding: px;
+	padding: 10px;
 }
 
 #hour th {
@@ -411,13 +412,13 @@ h2 {
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     padding: 0 0 0.5em 0;
 }
 
 h6 {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight: bold;
 }
 
@@ -488,6 +489,8 @@ p {
 /* welcome */
 .welcome {
     height: 360px;
+    display: flex;
+    align-items: center;
 }
 
 .welcome button {
@@ -519,6 +522,7 @@ p {
 /* service: flex */
 .service {
     margin: 50px 0 0 0;
+    max-width: 1040px;
 }
 
 .service .contents {
@@ -561,6 +565,10 @@ p {
 
 
 /* team: grid */
+.team {
+    margin-top: 30px;
+}
+
 .member {
     display: grid;
     grid-template-columns:repeat(2, 1fr);
@@ -577,6 +585,10 @@ p {
     box-sizing: border-box;
 }
 
+.member .info {
+    padding: 20px 10px;
+}
+
 .photo-john {
     grid-area: block1;
 }
@@ -587,36 +599,52 @@ p {
 
 .info .john {
     grid-area: block2;
-    padding: 10px;
 }
 
 .info .bob {
     grid-area: block3;
-    padding: 10px;
 }
 
 
 
 /* contact: grid */
 .contact {
+    margin: 50px 0 0 0;
+    max-width: 1040px;
+}
+
+.information {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
 }
 
 .message, .location {
-    flex-basis: 49%;
+    flex-basis: 49.5%;
+    margin-bottom: 10px;
 }
 
 .hour {
     order: 1;
-    flex-basis: 100%;
+    width: 100%;
+    margin-block: 20px;
 }
 
+.location iframe {
+    height: 400px;
+}
+
+
 #hour th, td {
-	font-size: 0.45rem;
+	font-size: 0.8em;
+    padding: 15px 20px;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    align-items:flex-end;
 }
 
 }
