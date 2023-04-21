@@ -388,7 +388,7 @@ header form i {
 /* media querie */
 @media screen and (min-width: 1200px) {
     body {
-        width: 1200px;
+        max-width: 1200px;
     }
 }
 
@@ -396,7 +396,8 @@ header form i {
 
 @media screen and (min-width: 760px) {
 .wrapper {
-    padding-inline:80px;
+    padding: 0 110px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -446,9 +447,7 @@ p {
 
 
 /* header: flex, justify-content, align items */
-.wrapper {
-    padding: 0 110px;
-}
+
 
 .header {
     height: 120px;
