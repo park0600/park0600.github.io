@@ -457,7 +457,7 @@ p {
 }
 
 .logo, .logo img {
-    width: 75px;
+    width: 5em;
     height: auto;
     padding: 0;
 }
@@ -472,8 +472,7 @@ p {
 .header ul li:nth-child(4),
 .header ul li:nth-child(5)  {
     white-space: nowrap;
-    width: 80px;
-    /* padding: 20px 20px; */
+    width: 5em;
 }
 
 #home {
